@@ -3,9 +3,9 @@ from routes import users
 from routes import notes
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
+import os
 
 load_dotenv()
-
 app = FastAPI()
 
 origins = [
